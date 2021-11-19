@@ -1,0 +1,48 @@
+body {
+  background-color: #fae9bb;
+}
+
+#map1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 450px;
+}
+
+#map2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Creepster', 'Brush Script', 'Georgia', cursive;
+}
+
+article {
+    width: 500px;
+    margin-top: 20px;
+    line-height: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Nunito Sans', 'Helvetica', sans-serif;
+}
+
+
+@media screen and (max-width: 750px) {
+    .map1 {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .map2 {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    article {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }
